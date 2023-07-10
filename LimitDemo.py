@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import sympy
 
 x = np.array(np.linspace(-100, 100, 10000))
-y =  np.sin(x)/x
+y = np.cos(x)  x
 
 plt.figure(figsize=(12, 3))
 
